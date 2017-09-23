@@ -1,5 +1,6 @@
 import pandas as pd
 import glob
+import sys
 
 def analyze(folder, order="price"):
     # Print all the string
@@ -37,4 +38,5 @@ def analyze(folder, order="price"):
     #print(frame)
 
 # Create the analysis
-analyze(folder="csv/")
+folder = sys.argv[1]
+analyze(folder=folder)

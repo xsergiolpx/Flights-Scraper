@@ -1,6 +1,7 @@
 import random
 from subprocess import call
 from os import remove
+from sys import platform
 
 def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "iphone", timeout_ms=5000):
     '''
@@ -42,7 +43,11 @@ def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "i
     print(script, file=open(js_name, "w+"))
 
     # Execute the script
-    call(["timeout", "60", phantomjs_bin, js_name])
+    if "linux" in platform:
+        t = "timeout"
+    else:
+        t = "gtimeout"
+    call([t, "60", phantomjs_bin, js_name])
 
     # Delete the js script
     remove(js_name)

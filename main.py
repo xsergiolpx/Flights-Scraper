@@ -4,13 +4,20 @@ from export_csv import export_list_dict_csv
 import random
 from time import gmtime, strftime
 from export_csv import import_list
+import sys
 
-links_folder = "links/"
-links = import_list(links_folder + "links.txt")
+#phantomjs_path = "bin/phantomjs-2.1.1-macosx/bin/phantomjs"
+
+if len(sys.argv) is not 3:
+    print("Syntax error, use: \n   python main.py <links-file> <path-to-phantomjs-binary>"
+          "\n ie: \n python main.py links/links.txt phantomjs")
+else:
+    links_file = sys.argv[1]
+    phantomjs_path = sys.argv[2]
+
+links = import_list(links_file)
 random.shuffle(links)
 links = set(links)
-#phantomjs_path = "bin/phantomjs-2.1.1-macosx/bin/phantomjs"
-phantomjs_path = "phantomjs"
 
 # Variables for the loop
 max_links = len(links)
