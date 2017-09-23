@@ -31,11 +31,11 @@ def analyze(folder, order="price"):
 
     #frame.loc[frame["link"].str.contains(".es"),]["currency"] = "eur"
     frame = frame.sort_values(order)
+    frame = frame.reset_index(drop=True)
     print(frame.head(n=15))
     frame.to_csv(folder + "results.csv", sep=";")
     frame.to_html(folder + "results.html")
 
-    #print(frame)
 
 # Create the analysis
 folder = sys.argv[1]
