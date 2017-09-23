@@ -69,7 +69,7 @@ def parse_kayak_mobile(filename, link=""):
             info["link"] = link
             info["download_date"] = download_date
             info["price"], info["currency"] = parse_price(box.find_all(class_="FResultItem__price")[0].text)
-            info["airlines"] = box.find_all(class_="FResultItem__airlines")[0].text[1:-2]
+            info["airlines"] = box.find_all(class_="FResultItem__airlines")[0].text[1:-2].replace("\n"," ")
             # Number of flights
             number_destinations = len(box.find_all(class_="FResultItem__LegItem FResultItem__LegItem--withDates"))
             info["number_destinations"] = number_destinations

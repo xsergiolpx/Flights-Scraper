@@ -22,15 +22,15 @@ links = set(links)
 # Variables for the loop
 max_links = len(links)
 links_repeat = set()
-timeout = 10000
+timeout = 25000
 counter = 0
 
 # Pop links until finish
 while len(links) > 0:
     link = links.pop()
-    print("["+ str((round((max_links-len(links))/max_links*100))) + "%] Downloading " + str(max_links-len(links))+ "/" + str(max_links) + " links")
+    print("["+ str((round((max_links-len(links))/max_links*100))) + "%] Downloading " + str(max_links-len(links))+ "/" + str(max_links) + " links   ", link)
     # Generate a name to download this data
-    sufix = strftime("%d-%m-%Y-%Hh-%Mmin-%Ss", gmtime()) + "-tmp" + str(random.randint(1, 10000000))
+    sufix = strftime("%d-%m-%Y-%Hh-%Mm-%Ss", gmtime()) + "-tmp" + str(random.randint(1, 10000000))
 
     # Where to create the file
     html_folder = "html/"
@@ -39,14 +39,15 @@ while len(links) > 0:
     csv_name = csv_folder + sufix + ".csv"
 
     # Get the data
-    download_html(link=link, html_name=html_name, phantomjs_bin=phantomjs_path, useragent = "iphone", timeout_ms=timeout)
+    download_html(link=link, html_name=html_name, phantomjs_bin=phantomjs_path, useragent = "phone", timeout_ms=timeout)
     data = parse_kayak_mobile(filename=html_name, link=link)
 
     # Check that there is data parsed
     if len(data) > 0:
+        print("Link OK... \n\n")
         export_list_dict_csv(list_of_dicts=data, filename=csv_name)
     else:
-        print("\nThis link didn't load! I will try one more time later... ", link)
+        print("Link failed! Try one more time later... \n\n")
         # Add to get them again
         links_repeat.add(link)
     # Count the times of loops done
@@ -55,5 +56,5 @@ while len(links) > 0:
     # Add the bad links to try again
     if counter is max_links:
         links = links.union(links_repeat)
-        timeout = timeout * 4
+        timeout = timeout * 3
 

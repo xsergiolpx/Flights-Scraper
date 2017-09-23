@@ -3,7 +3,8 @@ from subprocess import call
 from os import remove
 from sys import platform
 
-def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "iphone", timeout_ms=5000):
+
+def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "phone", timeout_ms=5000):
     '''
     Uses phantomjs to download the HTML content executing all javascripts from
     a link.
@@ -15,11 +16,10 @@ def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "i
     '''
 
     # Create a random number for the names
-    if useragent is "iphone":
-        user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1"
+    if useragent is "phone":
+        user_agent = random.choice(list(open("useragents-phone.txt"))).replace("\n","")
     else:
         user_agent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"
-
     # Folders
     js_folder = "javascripts/"
 
@@ -47,7 +47,7 @@ def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "i
         t = "timeout"
     else:
         t = "gtimeout"
-    call([t, "60", phantomjs_bin, js_name])
+    call([t, "100", phantomjs_bin, js_name])
 
     # Delete the js script
     remove(js_name)
