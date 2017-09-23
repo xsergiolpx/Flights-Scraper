@@ -1,4 +1,4 @@
-# Flights Scrapper
+# Flights Scraper
 
 This sorfware lets you find all the flights from Kayak from some given dates, and orders the by the price. To run it follow this tutorial:
 

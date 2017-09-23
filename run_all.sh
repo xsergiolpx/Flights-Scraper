@@ -2,6 +2,13 @@
 
 # Example
 ./clean.sh
-python generate_links_kayak.py -a 05 -b 06 -y 2018 -z 2018 -d MAD,BCN -r BKK,KUL -e es -n links/links.txt
-python main.py links/links.txt phantomjs
+python generate_links_kayak.py -a 10 -b 00 -y 2017 -z 2017 -d ROM -r MAD -e es -n links/links.txt
+python generate_links_kayak.py -a 11 -b 00 -y 2017 -z 2017 -d ROM -r MAD -e es -n links/links.txt
+python generate_links_kayak.py -a 12 -b 00 -y 2017 -z 2017 -d ROM -r MAD -e es -n links/links.txt
+python generate_links_kayak.py -a 01 -b 00 -y 2017 -z 2018 -d ROM -r MAD -e es -n links/links.txt
+python generate_links_kayak.py -a 10 -b 00 -y 2017 -z 2017 -r ROM -d MAD -e es -n links/links.txt
+python generate_links_kayak.py -a 11 -b 00 -y 2017 -z 2017 -r ROM -d MAD -e es -n links/links.txt
+python generate_links_kayak.py -a 12 -b 00 -y 2017 -z 2017 -r ROM -d MAD -e es -n links/links.txt
+python generate_links_kayak.py -a 01 -b 00 -y 2017 -z 2018 -r ROM -d MAD -e es -n links/links.txt
+python main.py links/links.txt bin/phantomjs-2.1.1-macosx/bin/phantomjs
 python analyze.py csv/
