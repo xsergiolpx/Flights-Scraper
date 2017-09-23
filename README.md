@@ -50,6 +50,8 @@ For example, if you want to go from Madrid or Barcelona in May of 2018 to Bangko
 python generate_links_kayak.py -a 05 -b 06 -y 2018 -z 2018 -d MAD,BCN -r BKK,KUL -e es,co.uk -n links/links.txt
 ```
 
+If instead you want a one way ticket, select -b 00 -z 00.
+
 After the links are generated, use the python file "main.py" to scan and scrap the links:
 
 ```
