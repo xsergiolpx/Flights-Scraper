@@ -55,16 +55,16 @@ If instead you want a one way ticket, select -b 00 -z 00.
 After the links are generated, use the python file "main.py" to scan and scrap the links:
 
 ```
-python main.py <links-file> <path-to-phantomjs-binary>
+python main.py <links-file> <path-to-phantomjs-binary> <sleep-time>
 ```
 
 For example:
 
 ```
-python main.py links/links.txt phantomjs
+python main.py links/links.txt phantomjs 60
 ```
 
-This will download the HTML code of each link under the folder html. Then it will parse all the information of the flights like the price, airports, duration, dates, stops... and generate one csv file (separated by ;) per link under the folder csv.
+This will download the HTML code of each link under the folder html, and will sleep on the average 60 seconds between petitions. Then it will parse all the information of the flights like the price, airports, duration, dates, stops... and generate one csv file (separated by ;) per link under the folder csv.
 Finaly to put them all together, you can run the following:
 
 ```
@@ -90,6 +90,6 @@ In summary, you have to run:
 ```
 ./clean.sh
 python generate_links_kayak.py -a 05 -b 06 -y 2018 -z 2018 -d MAD,BCN -r BKK,KUL -e es -n links/links.txt
-python main.py links/links.txt phantomjs
+python main.py links/links.txt phantomjs 60
 python analyze.py csv/
 ```

@@ -5,15 +5,26 @@ import random
 from time import gmtime, strftime
 from export_csv import import_list
 import sys
+from time import sleep
 
 #phantomjs_path = "bin/phantomjs-2.1.1-macosx/bin/phantomjs"
 
-if len(sys.argv) is not 3:
+def wait(time=60):
+    '''
+    Sleeps a random time in seconds from time/2 to time + time/2
+    :param time: int, in seconds
+    :return: nothing
+    '''
+    s = random.randrange(int(time/2), int(time + time/2))
+    sleep(s)
+
+if len(sys.argv) is not 4:
     print("Syntax error, use: \n   python main.py <links-file> <path-to-phantomjs-binary>"
           "\n ie: \n python main.py links/links.txt phantomjs")
 else:
     links_file = sys.argv[1]
     phantomjs_path = sys.argv[2]
+    sleeping_time = sys.argv[3]
 
 links = import_list(links_file)
 random.shuffle(links)
@@ -57,4 +68,6 @@ while len(links) > 0:
     if counter is max_links:
         links = links.union(links_repeat)
         timeout = timeout * 3
+
+    sleep(sleeping_time)
 
