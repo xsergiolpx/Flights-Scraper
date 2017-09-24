@@ -1,0 +1,61 @@
+price;number_destinations;download_date;day_week_0;airlines;duration_0;number_stops_0;date_0;arrival_time_0;currency;stops_0;depart_time_0;depart_airport_0;link;arrival_airport_0
+24;1;23-09-2017-14h-04m-16s;jue;Ryanair;2.6;0;16-11;12:00;€;;9:25;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+24;1;23-09-2017-14h-04m-16s;jue;Ryanair;2.6;0;16-11;23:25;€;;20:50;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+24;1;23-09-2017-14h-04m-16s;mié;Ryanair;2.6;0;15-11;23:25;€;;20:50;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+24;1;23-09-2017-14h-04m-16s;mié;Ryanair;2.6;0;15-11;19:10;€;;16:35;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+28;1;23-09-2017-14h-04m-16s;mié;Ryanair;2.6;0;15-11;12:00;€;;9:25;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+28;1;23-09-2017-14h-04m-16s;sáb;Ryanair;2.6;0;18-11;12:00;€;;9:25;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+30;1;23-09-2017-14h-04m-16s;mié;Ryanair;15.3;1;15-11;21:50;€;BVA;6:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+30;1;23-09-2017-14h-04m-16s;mié;Ryanair;16.5;1;15-11;23:59;€;MRS;7:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+30;1;23-09-2017-14h-04m-16s;mar;Ryanair;16.6;1;21-11;23:05;€;BVA;6:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+31;1;23-09-2017-14h-04m-16s;mié;Ryanair;7.4;1;15-11;18:35;€;STN;11:10;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+31;1;23-09-2017-14h-04m-16s;mar;Ryanair;7.4;1;21-11;18:35;€;STN;11:10;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+31;1;23-09-2017-14h-04m-16s;mar;Ryanair;9.5;1;21-11;23:35;€;STN;14:05;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+31;1;23-09-2017-14h-04m-16s;mié;Ryanair;9.5;1;15-11;23:35;€;STN;14:05;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+38;1;23-09-2017-14h-04m-16s;lun;Ryanair;11.8;1;20-11;18:20;€;OTP;6:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+40;1;23-09-2017-14h-04m-16s;lun;Ryanair;2.6;0;20-11;23:35;€;;21:00;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+40;1;23-09-2017-14h-04m-16s;mar;Ryanair;2.6;0;21-11;23:25;€;;20:50;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+40;1;23-09-2017-14h-04m-16s;sáb;Ryanair;2.6;0;18-11;19:10;€;;16:35;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+40;1;23-09-2017-14h-04m-16s;lun;Ryanair;2.6;0;20-11;19:10;€;;16:35;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+40;1;23-09-2017-14h-04m-16s;lun;Ryanair;2.6;0;20-11;12:00;€;;9:25;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+40;1;23-09-2017-14h-04m-16s;vie;Ryanair;2.6;0;17-11;12:00;€;;9:25;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+41;1;23-09-2017-14h-04m-16s;lun;Wizz Air;12;1;20-11;20:40;€;SOF;8:40;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+42;1;23-09-2017-14h-04m-16s;mar;Ryanair;17.5;1;21-11;11:50;€;CRL;18:20;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+43;1;23-09-2017-14h-04m-16s;lun;Ryanair;10.2;1;20-11;17:45;€;MRS;7:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+44;1;23-09-2017-14h-04m-16s;lun;Wizz Air / Ryanair;10.6;1;20-11;18:20;€;OTP;7:45;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+44;1;23-09-2017-14h-04m-16s;mar;Ryanair;15.4;2;21-11;9:10;€;CTA, BGY;17:45;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+44;1;23-09-2017-14h-04m-16s;mar;Ryanair;22.3;2;21-11;19:25;€;PMO, BLQ;21:05;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+45;1;23-09-2017-14h-04m-16s;mar;Ryanair;20.3;2;21-11;15:30;€;BCN, BHX;19:10;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+45;1;23-09-2017-14h-04m-16s;lun;Ryanair;21.4;2;20-11;10:15;€;NUE, STN;12:50;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+46;1;23-09-2017-14h-04m-16s;lun;Ryanair;20.1;1;20-11;13:05;€;BRI;17:00;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+47;1;23-09-2017-14h-04m-16s;lun;Wizz Air / Ryanair;11.1;1;20-11;19:45;€;SOF;8:40;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+47;1;23-09-2017-14h-04m-16s;mar;Ryanair;16.8;1;21-11;10:15;€;STN;17:25;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+47;1;23-09-2017-14h-04m-16s;lun;Ryanair;23.9;1;20-11;10:15;€;STN;10:20;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+48;1;23-09-2017-14h-04m-16s;mar;Ryanair;2.6;0;21-11;19:10;€;;16:35;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+48;1;23-09-2017-14h-04m-16s;sáb;Ryanair;2.6;0;18-11;23:25;€;;20:50;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+48;1;23-09-2017-14h-04m-16s;vie;Ryanair;2.6;0;17-11;19:10;€;;16:35;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+48;1;23-09-2017-14h-04m-16s;jue;Ryanair;2.6;0;16-11;19:10;€;;16:35;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+48;1;23-09-2017-14h-04m-16s;vie;Ryanair;2.6;0;17-11;23:25;€;;20:50;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+49;1;23-09-2017-14h-04m-16s;jue;Ryanair;7.4;1;16-11;18:35;€;STN;11:10;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+49;1;23-09-2017-14h-04m-16s;vie;Ryanair / Wizz Air;13.9;1;17-11;20:25;€;OTP;6:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+49;1;23-09-2017-14h-04m-16s;sáb;Ryanair;16.8;1;18-11;10:15;€;STN;17:25;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+50;1;23-09-2017-14h-04m-16s;vie;Ryanair;21.9;1;17-11;11:50;€;CRL;13:55;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+51;1;23-09-2017-14h-04m-16s;mié;Vueling;2.6;0;15-11;22:20;€;;19:45;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+52;1;23-09-2017-14h-04m-16s;mié;Ryanair;20.1;1;15-11;13:05;€;BRI;17:00;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+53;1;23-09-2017-14h-04m-16s;mié;Ryanair;15.4;2;15-11;9:10;€;CTA, BGY;17:45;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+53;1;23-09-2017-14h-04m-16s;sáb;Ryanair;17.5;1;18-11;11:50;€;CRL;18:20;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+53;1;23-09-2017-14h-04m-16s;lun;Ryanair;20.2;1;20-11;10:15;€;STN;14:05;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+54;1;23-09-2017-14h-04m-16s;vie;Ryanair;18.6;1;17-11;12:25;€;MLA;17:50;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+54;1;23-09-2017-14h-04m-16s;sáb;Ryanair;19.9;2;18-11;9:35;€;STN, TLS;13:40;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+55;1;23-09-2017-14h-04m-16s;dom;Ryanair;11.2;1;19-11;18:05;€;MRS;6:55;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+55;1;23-09-2017-14h-04m-16s;dom;Ryanair;17.4;2;19-11;23:55;€;STN, PMI;6:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+56;1;23-09-2017-14h-04m-16s;mié;Wizz Air;12;1;15-11;20:40;€;SOF;8:40;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+57;1;23-09-2017-14h-04m-16s;sáb;Ryanair;7.4;1;18-11;18:35;€;STN;11:10;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+58;1;23-09-2017-14h-04m-16s;mar;Ryanair;9.2;1;21-11;17:30;€;CAG;8:20;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+58;1;23-09-2017-14h-04m-16s;jue;Ryanair;14.6;1;16-11;9:30;€;BRU;18:55;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+61;1;23-09-2017-14h-04m-16s;lun;Ryanair;9.4;2;20-11;17:30;€;BCN, PMI;8:05;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+61;1;23-09-2017-14h-04m-16s;mar;Ryanair;10.3;2;21-11;20:25;€;CTA, BGY;10:05;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+61;1;23-09-2017-14h-04m-16s;sáb;Wizz Air / Ryanair;15.1;1;18-11;22:50;€;OTP;7:45;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+61;1;23-09-2017-14h-04m-16s;dom;Ryanair;15.2;1;19-11;23:40;€;PMO;8:30;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+61;1;23-09-2017-14h-04m-16s;lun;Ryanair;15.4;2;20-11;9:10;€;CTA, BGY;17:45;FCO;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD
+61;1;23-09-2017-14h-04m-16s;sáb;Ryanair;16.3;1;18-11;22:50;€;OTP;6:30;CIA;https://www.kayak.es/flights/ROM-MAD/2017-11-18-flexible;MAD

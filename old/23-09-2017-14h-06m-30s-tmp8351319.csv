@@ -1,0 +1,11 @@
+price;number_destinations;download_date;day_week_0;airlines;duration_0;number_stops_0;date_0;arrival_time_0;currency;stops_0;depart_time_0;depart_airport_0;link;arrival_airport_0
+43;1;23-09-2017-14h-06m-30s;mié;Ryanair;2.5;0;8-11;9:00;€;;6:30;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;CIA
+51;1;23-09-2017-14h-06m-30s;mié;Ryanair;2.5;0;8-11;16:10;€;;13:40;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;CIA
+73;1;23-09-2017-14h-06m-30s;dom;Air Europa;2.5;0;12-11;9:30;€;;7:00;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO
+117;1;23-09-2017-14h-06m-30s;dom;Air Europa  - Alitalia opera el vuel;2.5;0;12-11;13:55;€;;11:25;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO
+122;1;23-09-2017-14h-06m-30s;mié;British Airways  - Iberia Express For Iberia opera el vuel;6.8;1;8-11;15:35;€;LGW;8:50;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO
+128;1;23-09-2017-14h-06m-30s;dom;Air Europa;2.5;0;12-11;17:25;€;;14:55;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO
+129;1;23-09-2017-14h-06m-30s;dom;Air Europa  - Alitalia opera el vuel;2.4;0;12-11;20:20;€;;17:55;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO
+134;1;23-09-2017-14h-06m-30s;mié;British Airways;8.6;1;8-11;19:35;€;LHR;11:00;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO
+148;1;23-09-2017-14h-06m-30s;lun;Norwegian;15.3;1;13-11;23:20;€;HEL;8:00;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO
+157;1;23-09-2017-14h-06m-30s;mié;British Airways  - Iberia opera el vuel;7;1;8-11;21:55;€;LHR;14:55;MAD;https://www.kayak.es/flights/MAD-ROM/2017-11-11-flexible;FCO

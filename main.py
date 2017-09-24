@@ -24,7 +24,7 @@ if len(sys.argv) is not 4:
 else:
     links_file = sys.argv[1]
     phantomjs_path = sys.argv[2]
-    sleeping_time = sys.argv[3]
+    sleeping_time = int(sys.argv[3])
 
 links = import_list(links_file)
 random.shuffle(links)
