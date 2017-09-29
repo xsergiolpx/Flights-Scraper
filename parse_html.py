@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import re
+from time import gmtime, strftime
 
 
 def parse_price(price):
@@ -65,7 +66,8 @@ def parse_kayak_mobile(filename, link=""):
     :param link: link string where the HTML is from
     :return: list of dictionaries where each one has the parsed information
     '''
-    download_date = filename.split("tmp")[0][:-1].split("/")[1]
+    #download_date = filename.split("tmp")[0][:-1].split("/")[1]
+    download_date = strftime("%d-%m-%Y %H:%M:%S", gmtime())
     try:
         html_code = open(filename, "r").read()
     except FileNotFoundError:
