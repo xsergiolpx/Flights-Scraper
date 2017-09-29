@@ -1,0 +1,61 @@
+stops_0;depart_airport_1;download_date;day_week_0;duration_0;number_destinations;link;airlines;depart_time_0;arrival_time_0;depart_time_1;depart_airport_0;stops_1;arrival_time_1;arrival_airport_0;date_1;number_stops_0;day_week_1;number_stops_1;arrival_airport_1;date_0;duration_1;price;currency
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;18:25;21:05;7:40;FCO;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;167;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;19:30;22:10;7:40;FCO;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;172;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;18:25;21:05;16:10;FCO;;18:40;MAD;1-01;0;lun;0;FCO;29-12;2.5;177;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;18:25;21:05;7:00;FCO;;9:30;MAD;1-01;0;lun;0;FCO;29-12;2.5;177;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;19:30;22:10;16:10;FCO;;18:40;MAD;1-01;0;lun;0;FCO;29-12;2.5;181;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;19:30;22:10;7:00;FCO;;9:30;MAD;1-01;0;lun;0;FCO;29-12;2.5;181;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;20:50;23:25;13:40;CIA;;16:10;MAD;1-01;0;lun;0;CIA;29-12;2.5;191;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;11:00;13:40;7:40;FCO;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;199;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;9:25;12:00;13:40;CIA;;16:10;MAD;1-01;0;lun;0;CIA;29-12;2.5;208;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;16:35;19:10;13:40;CIA;;16:10;MAD;1-01;0;lun;0;CIA;29-12;2.5;208;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;11:00;13:40;16:10;FCO;;18:40;MAD;1-01;0;lun;0;FCO;29-12;2.5;209;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;11:00;13:40;7:00;FCO;;9:30;MAD;1-01;0;lun;0;FCO;29-12;2.5;209;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;18:25;21:05;14:55;FCO;;17:25;MAD;1-01;0;lun;0;FCO;29-12;2.5;210;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;20:50;23:25;18:05;CIA;;20:35;MAD;1-01;0;lun;0;CIA;29-12;2.5;211;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;19:30;22:10;14:55;FCO;;17:25;MAD;1-01;0;lun;0;FCO;29-12;2.5;215;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Alitalia / Air Europa;21:15;23:55;7:40;FCO;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;221;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;16:35;19:10;18:05;CIA;;20:35;MAD;1-01;0;lun;0;CIA;29-12;2.5;228;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;9:25;12:00;18:05;CIA;;20:35;MAD;1-01;0;lun;0;CIA;29-12;2.5;228;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;10:30;13:10;7:40;FCO;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;228;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Alitalia  - Air Europa opera el vuel;18:25;21:05;11:25;FCO;;13:55;MAD;1-01;0;lun;0;FCO;29-12;2.5;233;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Alitalia / Air Europa;21:15;23:55;16:10;FCO;;18:40;MAD;1-01;0;lun;0;FCO;29-12;2.5;233;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Alitalia / Air Europa;21:15;23:55;7:00;FCO;;9:30;MAD;1-01;0;lun;0;FCO;29-12;2.5;233;€
+BRU;MAD;weekend;vie;10.3;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Brussels Airlines / Air Europa;6:35;16:55;7:40;FCO;;10:10;MAD;1-01;1;lun;0;FCO;29-12;2.5;234;€
+BRU;MAD;weekend;vie;10.3;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Brussels Airlines;6:35;16:55;6:25;FCO;BRU;22:35;MAD;1-01;1;lun;1;FCO;29-12;16.2;236;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Air Europa;16:35;19:10;7:40;CIA;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;237;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Air Europa;20:50;23:25;7:40;CIA;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;237;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;10:30;13:10;16:10;FCO;;18:40;MAD;1-01;0;lun;0;FCO;29-12;2.5;237;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;10:30;13:10;7:00;FCO;;9:30;MAD;1-01;0;lun;0;FCO;29-12;2.5;237;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / TAP AIR PORTUGAL;18:25;21:05;21:05;FCO;LIS;10:55;MAD;1-01;0;lun;1;FCO;29-12;13.8;237;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / TAP AIR PORTUGAL;18:25;21:05;16:40;FCO;LIS;10:55;MAD;1-01;0;lun;1;FCO;29-12;18.2;237;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Vueling / Air Europa;19:45;22:20;7:40;FCO;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;238;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Vueling / Air Europa;10:00;12:35;7:40;FCO;;10:10;MAD;1-01;0;lun;0;FCO;29-12;2.5;238;€
+AMS;MAD;weekend;vie;7.4;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;KLM / Air Europa  - Air Europa opera el vuel;6:10;13:35;7:40;FCO;;10:10;MAD;1-01;1;lun;0;FCO;29-12;2.5;238;€
+FRA;MAD;weekend;vie;13.4;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Lufthansa / Brussels Airlines;9:45;23:10;6:25;FCO;BRU;22:35;MAD;1-01;1;lun;1;FCO;29-12;16.2;238;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / Ryanair;19:30;22:10;9:20;FCO;EIN;17:50;MAD;1-01;0;lun;1;CIA;29-12;8.5;239;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / Ryanair / Vueling;19:30;22:10;8:00;FCO;MRS;18:50;MAD;1-01;0;lun;1;FCO;29-12;10.8;239;€
+OTP;MAD;weekend;vie;13.9;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Wizz Air;6:30;20:25;9:20;CIA;EIN;17:50;MAD;1-01;1;lun;1;CIA;29-12;8.5;240;€
+FRA;MAD;weekend;vie;12.9;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Lufthansa / Brussels Airlines;7:00;19:55;6:25;FCO;BRU;22:35;MAD;1-01;1;lun;1;FCO;29-12;16.2;241;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa;11:00;13:40;14:55;FCO;;17:25;MAD;1-01;0;lun;0;FCO;29-12;2.5;242;€
+OTP;MAD;weekend;vie;11.8;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Air Europa;6:30;18:20;7:40;CIA;;10:10;MAD;1-01;1;lun;0;FCO;29-12;2.5;242;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / TAP AIR PORTUGAL;19:30;22:10;21:05;FCO;LIS;10:55;MAD;1-01;0;lun;1;FCO;29-12;13.8;242;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / TAP AIR PORTUGAL;19:30;22:10;16:40;FCO;LIS;10:55;MAD;1-01;0;lun;1;FCO;29-12;18.2;242;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / Vueling;18:25;21:05;12:25;FCO;;14:50;MAD;1-01;0;lun;0;FCO;29-12;2.4;244;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / Vueling;19:30;22:10;12:25;FCO;;14:50;MAD;1-01;0;lun;0;FCO;29-12;2.4;244;€
+MUC;MAD;weekend;vie;11.5;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Lufthansa / Brussels Airlines;11:05;22:35;6:25;FCO;BRU;22:35;MAD;1-01;1;lun;1;FCO;29-12;16.2;244;€
+MUC;MAD;weekend;vie;13.9;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Lufthansa / Brussels Airlines;8:40;22:35;6:25;FCO;BRU;22:35;MAD;1-01;1;lun;1;FCO;29-12;16.2;244;€
+OTP;MAD;weekend;vie;11.2;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Blue Air / Air Europa;6:30;17:40;7:40;CIA;;10:10;MAD;1-01;1;lun;0;FCO;29-12;2.5;245;€
+BRU;MAD;weekend;vie;10.3;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Brussels Airlines / Air Europa;6:35;16:55;16:10;FCO;;18:40;MAD;1-01;1;lun;0;FCO;29-12;2.5;246;€
+BRU;MAD;weekend;vie;10.3;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Brussels Airlines / Air Europa;6:35;16:55;7:00;FCO;;9:30;MAD;1-01;1;lun;0;FCO;29-12;2.5;246;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Alitalia;21:15;23:50;11:25;FCO;;13:55;MAD;1-01;0;lun;0;FCO;29-12;2.5;247;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;20:50;23:25;9:20;CIA;EIN;17:50;MAD;1-01;0;lun;1;CIA;29-12;8.5;247;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;16:35;19:10;9:20;CIA;EIN;17:50;MAD;1-01;0;lun;1;CIA;29-12;8.5;247;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Vueling;16:35;19:10;8:00;CIA;MRS;18:50;MAD;1-01;0;lun;1;FCO;29-12;10.8;247;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Vueling;20:50;23:25;8:00;CIA;MRS;18:50;MAD;1-01;0;lun;1;FCO;29-12;10.8;247;€
+BRU;MAD;weekend;vie;11.3;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Alitalia / Ryanair / Air Europa;8:20;19:40;7:40;FCO;;10:10;MAD;1-01;1;lun;0;FCO;29-12;2.5;247;€
+FRA;MAD;weekend;vie;16.2;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Lufthansa / Brussels Airlines;7:00;23:10;6:25;FCO;BRU;22:35;MAD;1-01;1;lun;1;FCO;29-12;16.2;247;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Vueling;16:35;19:10;12:25;CIA;;14:50;MAD;1-01;0;lun;0;FCO;29-12;2.4;249;€
+;MAD;weekend;vie;2.6;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair / Vueling;20:50;23:25;12:25;CIA;;14:50;MAD;1-01;0;lun;0;FCO;29-12;2.4;249;€
+;MAD;weekend;vie;2.7;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Air Europa / Ryanair;19:30;22:10;13:40;FCO;;16:10;MAD;1-01;0;lun;0;CIA;29-12;2.5;249;€
+OTP;MAD;weekend;vie;11.8;2;https://www.kayak.es/flights/ROM-MAD/2017-12-29/2018-01-01;Ryanair;6:30;18:20;9:20;CIA;EIN;17:50;MAD;1-01;1;lun;1;CIA;29-12;8.5;249;€

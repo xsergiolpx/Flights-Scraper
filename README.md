@@ -50,46 +50,84 @@ For example, if you want to go from Madrid or Barcelona in May of 2018 to Bangko
 python generate_links_kayak.py -a 05 -b 06 -y 2018 -z 2018 -d MAD,BCN -r BKK,KUL -e es,co.uk -n links/links.txt
 ```
 
-If instead you want a one way ticket, select -b 00 -z 00.
+If instead you want a one way ticket, select -b 00 -z 00. On the other hand, if your preferences are just one day of the week, so lets say that you can travel on friday, and you want to come back on monday, of a given month and year, you could run this other script:
+
+```
+python generate_links_kayak_short_trip.py -a <month-departure> -y <year-departure> -b <week-day-departure> -z <week-day-return/00-for-no-return> -d <departure-airport> -r <destination-airport> -e <extension> -n <file-name>
+```
+
+For example, to go from Rome on a Friday of October to Madrid, and come back the next Monday, you have to run:
+
+```
+python generate_links_kayak_short_trip.py -a 10 -y 2017 -b friday -z monday -d ROM -r MAD -e es -n links/links.txt
+```
+
+Or if you just want to make the trip one way, set -z to "00"
 
 After the links are generated, use the python file "main.py" to scan and scrap the links:
 
 ```
-python main.py <links-file> <path-to-phantomjs-binary> <sleep-time>
+python main.py <project> <path-to-phantomjs-binary> <sleep-time>
 ```
 
 For example:
 
 ```
-python main.py links/links.txt phantomjs 60
+python main.py trip-to-asia links/links.txt phantomjs 60
 ```
 
 This will download the HTML code of each link under the folder html, and will sleep on the average 60 seconds between petitions. Then it will parse all the information of the flights like the price, airports, duration, dates, stops... and generate one csv file (separated by ;) per link under the folder csv.
 Finaly to put them all together, you can run the following:
 
 ```
-python analyze.py <folder>
+python analyze.py <path-to-folder-csv>
 ```
 
 For example
 ```
-python analyze.py csv/
+python analyze.py csv/trip-to-asia/
 ```
 
 This will generate under that folder two files with the concatenated csv files and are ordered by price (less to more):
 
 ```
-csv/results.csv
-csv/results.html
+csv/trip-to-asia/results.csv
+csv/trip-to-asia/results.html
 ```
 
 Now is up to you what to do. This software can be used to monitor several trips and you could set up some kind of notification process to send you an email when you find a flight suitable for you. Nevertheless, keep in mind that Kayak does not like bots, and if you over use it, they will block you.
 
-In summary, you have to run:
+I recommend you to generate scripts, like the following to travel two ways from Rome to Madrid:
 
 ```
+#!/usr/bin/env bash
+
+# Where to save the links
+links1="links/rome-madrid.txt"
+links2="links/madrid-rome.txt"
+
+# Where to save the results
+folder_results1="csv/rome-madrid/"
+folder_results2="csv/madrid-rome/"
+
+# Create the dirs
+
+mkdir -p $folder_results1
+mkdir -p $folder_results2
+
+# Example
 ./clean.sh
-python generate_links_kayak.py -a 05 -b 06 -y 2018 -z 2018 -d MAD,BCN -r BKK,KUL -e es -n links/links.txt
-python main.py links/links.txt phantomjs 60
-python analyze.py csv/
+
+python generate_links_kayak.py -a 10 -b 00 -y 2017 -z 2017 -d ROM -r MAD -e es -n $links1
+python generate_links_kayak.py -a 11 -b 00 -y 2017 -z 2017 -d ROM -r MAD -e es -n $links1
+python generate_links_kayak.py -a 12 -b 00 -y 2017 -z 2017 -d ROM -r MAD -e es -n $links1
+python generate_links_kayak.py -a 10 -b 00 -y 2017 -z 2017 -r ROM -d MAD -e es -n $links2
+python generate_links_kayak.py -a 11 -b 00 -y 2017 -z 2017 -r ROM -d MAD -e es -n $links2
+python generate_links_kayak.py -a 12 -b 00 -y 2017 -z 2017 -r ROM -d MAD -e es -n $links2
+
+python main.py $links1 $folder_results1 phantomjs 60
+python analyze.py $folder_results1
+
+python main.py $links1 $folder_results2 phantomjs 60
+python analyze.py $folder_results2
 ```

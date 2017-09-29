@@ -4,14 +4,14 @@ from os import remove
 from sys import platform
 
 
-def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "phone", timeout_ms=5000):
+def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "phone", timeout_ms=5000, js_folder="javascripts/"):
     '''
     Uses phantomjs to download the HTML content executing all javascripts from
     a link.
     :param link: http link to download
     :param html_name: full filename to write into the HTML code
     :param phantomjs_bin: location of the binary
-    :param useragent: string whichs says "iphone" for a mobile user agent or anything else for desktop
+    :param useragent: string whichs says "phone" for a mobile user agent or anything else for desktop
     :return: Nothing
     '''
 
@@ -20,24 +20,14 @@ def download_html(link, html_name, phantomjs_bin = "./phantomjs", useragent = "p
         user_agent = random.choice(list(open("useragents-phone.txt"))).replace("\n","")
     else:
         user_agent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36"
-    # Folders
-    js_folder = "javascripts/"
 
     # Filenames
     sufix = "tmp" + str(random.randint(1, 10000000))
     js_name = js_folder + sufix + ".js"
 
-    # Generate the phantomjs script
-    script = "var page = new WebPage()\n " \
-             "var fs = require('fs'); " \
-             "page.settings.userAgent = '" + user_agent + "';" \
-             "page.settings.resourceTimeout = "+ str(timeout_ms) +"; var settings = {encoding: 'utf8',};" \
-             "page.onLoadFinished = function() {" \
-             "console.log('Page load finished!');" \
-             "fs.write('" + html_name + "', page.content, 'w');" \
-             "phantom.exit();};" \
-             "page.open('" +  link + "', function() {" \
-             "page.evaluate(function() {});});"
+    # Generate the phantomjs script with a template
+
+    script = open('javascripts/dynamic-resources.js', 'r').read().replace("URL_HERE", link).replace("USERAGENT_HERE", user_agent).replace("HTML_SAVE_HERE",html_name)
 
     # Save it to a file
     print(script, file=open(js_name, "w+"))

@@ -21,10 +21,16 @@ def wait(time=60):
 if len(sys.argv) is not 4:
     print("Syntax error, use: \n   python main.py <links-file> <path-to-phantomjs-binary>"
           "\n ie: \n python main.py links/links.txt phantomjs")
+    exit()
 else:
-    links_file = sys.argv[1]
+    project = sys.argv[1]
     phantomjs_path = sys.argv[2]
     sleeping_time = int(sys.argv[3])
+
+links_file = project + "/links/links.txt"
+results_folder = project + "/csv/"
+html_folder = project + "/html/"
+js_folder = project + "/javascripts/"
 
 links = import_list(links_file)
 random.shuffle(links)
@@ -44,13 +50,12 @@ while len(links) > 0:
     sufix = strftime("%d-%m-%Y-%Hh-%Mm-%Ss", gmtime()) + "-tmp" + str(random.randint(1, 10000000))
 
     # Where to create the file
-    html_folder = "html/"
     html_name = html_folder + sufix + ".html"
-    csv_folder = "csv/"
+    csv_folder = results_folder
     csv_name = csv_folder + sufix + ".csv"
 
     # Get the data
-    download_html(link=link, html_name=html_name, phantomjs_bin=phantomjs_path, useragent = "phone", timeout_ms=timeout)
+    download_html(link=link, html_name=html_name, phantomjs_bin=phantomjs_path, useragent = "phone", timeout_ms=timeout, js_folder=js_folder)
     data = parse_kayak_mobile(filename=html_name, link=link)
 
     # Check that there is data parsed
@@ -67,7 +72,7 @@ while len(links) > 0:
     # Add the bad links to try again
     if counter is max_links:
         links = links.union(links_repeat)
-        timeout = timeout * 3
+        timeout = timeout * 7
 
     sleep(sleeping_time)
 
