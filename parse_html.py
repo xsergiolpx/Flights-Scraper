@@ -77,10 +77,13 @@ def parse_kayak_mobile(filename, link=""):
     soup = BeautifulSoup(html_code, "html.parser")
 
     boxes = soup.find_all(class_="FResultItem tap-enabled")
+
     if len(boxes) == 0:
         boxes = soup.find_all(class_="FResultItem")
     if len(boxes) == 0:
         boxes = soup.find_all(class_="rpResultItem FResultItem")
+    if len(boxes) == 0:
+        boxes = soup.find_all(class_="FResultItemCard tap-enabled")
     dataset = []
     search_box = soup.find_all(class_="SearchSummary__longDateEmphasis")
 
@@ -88,7 +91,7 @@ def parse_kayak_mobile(filename, link=""):
         print("Wrong parsing the boxes")
         return dataset
 
-    for box in boxes:
+    for box in boxes[1:-1]:
         # Check the box is not an ad
         if len(box.find_all(class_="InlineAdFlag")) is 0:
             try:
@@ -107,10 +110,10 @@ def parse_kayak_mobile(filename, link=""):
                 # Run the loop if there are multiple destinations
                 for i in range(number_destinations):
                     pass
-                    info["duration_" + str(i)] = parse_duration(box.find_all(class_="ResultLeg__durationBlock")[i].text)
-                    info["stops_" + str(i)] = box.find_all(class_="ResultLeg__stopAirports")[i].text
+                    info["duration_" + str(i)] = parse_duration(box.find_all(class_="ResultLeg__duration")[i].text)
+                    #info["stops_" + str(i)] = box.find_all(class_="ResultLeg__stopAirports")[i].text
 
-                    info["number_stops_" + str(i)] = len(info["stops_" + str(i)].split())
+                    #info["number_stops_" + str(i)] = len(info["stops_" + str(i)].split())
                     if len(box.find_all(class_="ResultLeg__date")) > 0:
                         info["date_" + str(i)] = parse_date(box.find_all(class_="ResultLeg__date")[i].text)
                         info["day_week_" + str(i)] = (box.find_all(class_="ResultLeg__timeDay")[i].text).replace(".", "")

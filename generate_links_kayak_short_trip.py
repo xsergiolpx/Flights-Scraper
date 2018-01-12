@@ -29,7 +29,11 @@ def gen_dates_same_month(day1, day2, month, year):
     year=int(year)
     c = calendar.Calendar(firstweekday=calendar.MONDAY)
     vec_days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-    dif = abs(vec_days.index(day1) - vec_days.index(day2))-1
+    if vec_days.index(day1) - vec_days.index(day2) >= 0:
+        dif = - vec_days.index(day1) + vec_days.index(day2) + 7
+    else:
+        dif = vec_days.index(day2) - vec_days.index(day1)
+    print(dif)
     monthcal = c.monthdatescalendar(year, month)
     d = [[datetime.date(day.year, day.month, day.day).strftime("%Y-%m-%d"),
           (datetime.date(day.year, day.month, day.day) + datetime.timedelta(days=dif)).strftime("%Y-%m-%d")]
