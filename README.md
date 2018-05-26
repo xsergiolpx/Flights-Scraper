@@ -5,7 +5,7 @@ This sorfware lets you find all the flights from Kayak from some given dates, an
 First, make sure you are running from scratch using:
 
 ```
-./clean.sh
+./clean-project.sh
 ```
 
 Second, you have to create a file that contains one Kayak link per line. You should put this under the folder "links". For example the file links/links.txt would look like this
